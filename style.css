@@ -49,7 +49,7 @@ nav ul li a:hover {
 
 .welcome {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;
 }
@@ -72,20 +72,20 @@ nav ul li a:hover {
 }
 
 .intro p {
-  font-size: 18px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro button {
   background-color: greenyellow;
   font-weight: bolder;
-  width: 100px;
+  width: 150px;
   height: 40px;
   border-radius: 10px;
   border: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .intro button:hover {
@@ -99,7 +99,7 @@ nav ul li a:hover {
 
 .infoTitle {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .infos {
@@ -118,14 +118,15 @@ nav ul li a:hover {
   background-color: blueviolet;
 }
 .info img {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
 }
 
 .info p {
   max-width: 200px;
   text-align: center;
+  font-size: 19px;
 }
 
 /* quote parent*/
@@ -139,11 +140,13 @@ nav ul li a:hover {
   text-align: center;
   color: rgba(0, 0, 0, 0.819);
   width: 1000px;
+  font-size: 20px;
 }
 
 .author {
   text-align: end;
   font-weight: bold;
+  font-size: 25px;
 }
 
 /* sign up position */
@@ -158,13 +161,14 @@ nav ul li a:hover {
 
 /* button styling */
 .positionSign button {
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
   background-color: lightgreen;
   border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .positionSign button:hover {
@@ -180,12 +184,13 @@ nav ul li a:hover {
 }
 
 .signTitle {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .description {
   color: rgba(0, 0, 0, 0.832);
+  font-size: 20px;
 }
 
 /* bgColor around whole sign up */
@@ -202,6 +207,7 @@ footer {
   color: white;
   padding: 33px;
   margin: 0;
+  font-size: 20px;
 }
 footer img {
   width: 50px;
@@ -211,4 +217,7 @@ footer img {
 footer a {
   padding: 0;
   margin: 0;
+ 
 }
+
+
