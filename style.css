@@ -2,14 +2,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: white;
   background-color: black;
-}
-
-.introBgCol {
-  padding: 10px;
   color: white;
 }
+
+
 
 /* position of nav */
 
@@ -64,7 +61,7 @@ nav ul li a:hover {
 /* introduction styling */
 
 .intro {
-  width: 400px;
+  max-width: 400px;
 }
 
 .intro h1 {
@@ -111,6 +108,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 15px;
   padding-top: 0;
+
 }
 
 /* info styling */
@@ -133,13 +131,15 @@ nav ul li a:hover {
 .quotes {
   padding: 50px;
   background-color: lightgray;
+  color: black;
+  
 }
 
 /* quote position*/
 .quote {
   text-align: center;
   color: rgba(0, 0, 0, 0.819);
-  width: 1000px;
+
   font-size: 20px;
 }
 
@@ -147,6 +147,7 @@ nav ul li a:hover {
   text-align: end;
   font-weight: bold;
   font-size: 25px;
+
 }
 
 /* sign up position */
@@ -157,6 +158,7 @@ nav ul li a:hover {
   background-color: lightgreen;
   padding: 50px;
   border-radius: 10px;
+  color: black;
 }
 
 /* button styling */
