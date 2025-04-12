@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  background-color: black;
+}
+
+.introBgCol {
+  padding: 10px;
+  color: white;
+}
+
+/* position of nav */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* styles */
+
+nav img {
+  width: 90px;
+  height: auto;
+  object-fit: cover;
+}
+
+ul {
+  display: flex; /* - for position*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: greenyellow;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+/* after nav welcome positioning */
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* style welcome img */
+.welcome img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* introduction styling */
+
+.intro {
+  width: 400px;
+}
+
+.intro h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.intro p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro button {
+  background-color: greenyellow;
+  font-weight: bolder;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.intro button:hover {
+  background-color: violet;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+/* info positioning */
+
+.infoTitle {
+  text-align: center;
+  color: black;
+}
+
+.infos {
+  display: flex;
+  color: black;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  padding: 100px;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 0;
+}
+
+/* info styling */
+.infoBgCl {
+  background-color: blueviolet;
+}
+.info img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info p {
+  max-width: 200px;
+  text-align: center;
+}
+
+/* quote parent*/
+.quotes {
+  padding: 50px;
+  background-color: lightgray;
+}
+
+/* quote position*/
+.quote {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.819);
+  width: 1000px;
+}
+
+.author {
+  text-align: end;
+  font-weight: bold;
+}
+
+/* sign up position */
+.positionSign {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightgreen;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+/* button styling */
+.positionSign button {
+  width: 100px;
+  height: 30px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.positionSign button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid green;
+}
+
+/* signText column */
+
+.signTxt p {
+  margin: 0;
+}
+
+.signTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.832);
+}
+
+/* bgColor around whole sign up */
+
+.bgClSign {
+  background-color: rgba(245, 245, 245, 0.961);
+  padding: 50px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 33px;
+  margin: 0;
+}
+footer img {
+  width: 50px;
+  height: 30px;
+}
+
+footer a {
+  padding: 0;
+  margin: 0;
+}
